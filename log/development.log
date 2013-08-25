@@ -876,3 +876,16 @@ Processing by ProductsController#index as HTML
   [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
   Rendered products/index.html.erb within layouts/application (3.3ms)
 Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-25 17:04:13 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tsengwenchi/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 48ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-25 17:04:13 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tsengwenchi/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
